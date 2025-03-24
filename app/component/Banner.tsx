@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
 import abhishek from '../../public/abhishek.png'
-import Heart from '../../public/heart.png'
 function Banner() {
   return (
     <>
