@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0C3DFB;
+    --font-jersey: "Jersey 10", sans-serif;
+  }
+}
+
+
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-jersey);
+}
