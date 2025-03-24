@@ -8,6 +8,40 @@
     --font-jersey: "Jersey 10", sans-serif;
   }
 }
+/* Bold and thick scrollbar */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track (Background of the scrollbar) */
+::-webkit-scrollbar-track {
+  background: #c0c0c0;
+  border-left: 3px solid #ffffff;
+  border-top: 3px solid #ffffff;
+  border-right: 3px solid #808080;
+  border-bottom: 3px solid #808080;
+}
+
+/* Scrollbar Handle (The moving part) */
+::-webkit-scrollbar-thumb {
+  background: #a0a0a0;
+  border-left: 3px solid #808080;
+  border-top: 3px solid #808080;
+  border-right: 3px solid #ffffff;
+  border-bottom: 3px solid #ffffff;
+}
+
+/* Scrollbar Handle on Hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #888;
+}
+
+/* Standard scrollbar for Firefox */
+* {
+  scrollbar-width: thick;
+  scrollbar-color: #a0a0a0 #c0c0c0;
+}
+
 
 
 
