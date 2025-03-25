@@ -12,7 +12,7 @@ export default function Home() {
   const [displayText, setDisplayText] = useState("");
   const [index, setIndex] = useState(0);
   const [showWelcome, setShowWelcome] = useState(true); 
-  
+
   useEffect(() => {
     if (index < nameText.length) {
       const timeout = setTimeout(() => {
@@ -36,7 +36,7 @@ export default function Home() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5 }}
-            className="text-9xl font-bold"
+            className="text-4xl md:text-9xl font-bold"
           >
             {displayText}
             <motion.span
