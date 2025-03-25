@@ -3,7 +3,7 @@ import React from 'react'
 function Conatct() {
   return (
     <>
-    <h2 className='text-white text-4xl md:mt-20'>Projects</h2>
+    <h2 className='text-white text-4xl md:mt-20'>Contact</h2>
     <div className='bg-gray-400 mt-10' style={{height: '100vh', width: '90%'}}>
       <div className='flex  justify-center items-center py-4 bg-[#f9cdaa] ml-2 mr-2 mt-2'>
       <h2 className='text-black text-3xl '>Contact Me</h2>
