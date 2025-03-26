@@ -1,6 +1,7 @@
 import Image, { StaticImageData } from 'next/image'
 import React from 'react'
 import { TbExternalLink } from 'react-icons/tb'
+import 'animate.css';
 
 interface ProjectsProps{
     title:string
@@ -16,8 +17,8 @@ interface ProjectsProps{
 const Card:React.FC<CardProps>=({project})=> {
   return (
     <>
-        <div className='card  w-90 '>
-            <div className=''>
+<div className='card w-90 animate__animated animate__fadeInLeftBig animate__slow'>
+<div className=''>
        <Image className='hover:scale-105 duration-300 h-52' width={400} height={10} src={project.image} alt=''/>
             </div>
        <div className='card-body p-5 bg-gray-400'>

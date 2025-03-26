@@ -55,7 +55,7 @@ export default function Home() {
             </div>
           </nav>
 
-          <section className="mt-10 flex flex-col justify-center items-center md:flex-row gap-10 justify-evenly">
+          <section className="mt-10 flex flex-col justify-center items-center md:flex-row gap-10">
             <Banner />
           </section>
 
