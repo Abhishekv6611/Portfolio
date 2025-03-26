@@ -1,12 +1,16 @@
 import React from 'react'
 import Expressjs from '../../public/Expressjs.jpg'
 import Image from 'next/image'
-import 'animate.css';
+import {  motion } from 'framer-motion'
 function SkillCard() {
     return (
         <>
             <h2 className='text-white text-4xl md:mt-20'>Skills</h2>
-            <div className='flex flex-col md:flex-row mt-2 md:mt-10 mb-10 p-10 animate__animated animate__fadeInUp animate__slow'>
+            <motion.div 
+             initial={{ opacity: 0,y:20}}
+             whileInView={{opacity:1,y:0}} 
+                transition={{duration:0.8,ease:"easeOut"}}
+            className='flex flex-col md:flex-row mt-2 md:mt-10 mb-10 p-10 '>
                 <div className=' bg-[#D9D9D9] p-2 border hover:scale-105 duration-300'>
                     <img style={{ height: '200px' }} width={300} src={"https://www.abrilliants.com/wp-content/uploads/2023/05/1631110818-logo-react-js.png"} alt="" />
                 </div>
@@ -23,7 +27,7 @@ function SkillCard() {
                     <Image style={{ height: '200px' }} width={300} src={Expressjs} alt="" />
                 </div>
 
-            </div>
+            </motion.div>
         </>
     )
 }

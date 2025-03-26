@@ -1,13 +1,14 @@
 import Image, { StaticImageData } from 'next/image'
 import React from 'react'
 import { TbExternalLink } from 'react-icons/tb'
-import 'animate.css';
-
+import {motion} from 'framer-motion'
 interface ProjectsProps{
+    id:number
     title:string
     description:string
     link:string
     image:StaticImageData
+
   }
 
   interface CardProps{
@@ -17,7 +18,12 @@ interface ProjectsProps{
 const Card:React.FC<CardProps>=({project})=> {
   return (
     <>
-<div className='card w-90 animate__animated animate__fadeInLeftBig animate__slow'>
+<motion.div
+ initial={{opacity:0,y:20}}
+ whileInView={{opacity:1,y:0}}
+ transition={{duration:0.4,delay:project.id*0.2,ease:'easeOut'}}
+
+className='card w-90 '>
 <div className=''>
        <Image className='hover:scale-105 duration-300 h-52' width={400} height={10} src={project.image} alt=''/>
             </div>
@@ -28,7 +34,7 @@ const Card:React.FC<CardProps>=({project})=> {
         </span>
         <p>{project.description}</p>
        </div>
-      </div>
+      </motion.div>
     </>
   )
 }
