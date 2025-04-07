@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) 
 {
   return (
-    <html lang="en" className={`${jerseyFont.variable}`}>
+    <html lang="en" className={`${jerseyFont.variable} bg-[#0C3DFB]`}>
         <ReactLenis root>
       <body
        className="antialiased bg-[#0C3DFB]"
