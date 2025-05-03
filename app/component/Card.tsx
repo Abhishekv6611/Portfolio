@@ -21,7 +21,7 @@ const Card:React.FC<CardProps>=({project})=> {
 <motion.div
  initial={{opacity:0,y:20}}
  whileInView={{opacity:1,y:0}}
- transition={{duration:0.4,delay:project.id*0.2,ease:'easeOut'}}
+ transition={{duration:0.3,delay:project.id*0.1,ease:'easeOut'}}
 
 className='card w-90 '>
 <div className=''>
