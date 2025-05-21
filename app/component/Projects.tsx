@@ -4,23 +4,31 @@ import EStore from '../../public/EStore.png'
 import Bloggin from '../../public/Bloggin.png'
 import MusicApp from '../../public/MusicApp.png'
 import ChatApp from '../../public/ChatApp.png'
+import Diet from '../../public/Ai-diet.png'
 
 
 function Projects() {
 
   const Data=[
     {
-      id:1,
-      title:'E-Store',
-      description:'Developed a fully functional e-commerce store using Open API for product data and implemented Redux for state management, including cart and wishlist functionalities.Ensured a responsive and user-friendly UI with efficient API handling',
-      link:'https://react-store-eight-topaz.vercel.app/',
-      image:EStore
-    },{
+      id:5,
+      title:' AI-Powered Diet Planner for Pregnant Womens',
+      description:'Built and deployed a responsive web app that generates personalized diet plans using OpenAI, tailored to the user’s pregnancy stage. Integrated user authentication with Clerk for a secure and seamless login experienc',
+      link:'https://mealgorithm.vercel.app/',
+      image:Diet
+    },
+  {
       id:2,
       title:'Blogging Site',
       description:"Developed a secure authentication web app using the MERN stack, featuring user registration login forgot password and reset password functionalities. Integrated Jwt authentication for seamless user management and implemented Gmail SMTP (Nodemailer) for password recovery.",
       link:' https://lazythoughts-client.vercel.app/',
       image:Bloggin
+    },  {
+      id:1,
+      title:'E-Store',
+      description:'Developed a fully functional e-commerce store using Open API for product data and implemented Redux for state management, including cart and wishlist functionalities.Ensured a responsive and user-friendly UI with efficient API handling',
+      link:'https://react-store-eight-topaz.vercel.app/',
+      image:EStore
     },{
       id:3,
       title:'Music Player',
@@ -33,7 +41,7 @@ function Projects() {
       description:'Developed a responsive real-time chat application using the MERN stack. The application allows users to securely register, log in, and engage in real-time conversations with other users.Built with React.js and styled using Tailwind CSS for a modern and responsive user interface.Backend Developed using Node.js and Express.js for server-side logic',
       link:' https://chatapp-eomm.onrender.com/',
       image:ChatApp
-    }
+    },
   ]
 
   return (
