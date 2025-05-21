@@ -1,6 +1,4 @@
 import React from 'react'
-import Expressjs from '../../public/Expressjs.jpg'
-import Image from 'next/image'
 import {  motion } from 'framer-motion'
  
 interface SkillsTypes{
