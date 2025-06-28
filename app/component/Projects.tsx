@@ -5,6 +5,7 @@ import Bloggin from '../../public/Bloggin.png'
 import MusicApp from '../../public/MusicApp.png'
 import ChatApp from '../../public/ChatApp.png'
 import Diet from '../../public/Ai-diet.png'
+import Ozhivu from '../../public/Ozhivu.png'
 
 
 function Projects() {
@@ -41,6 +42,13 @@ function Projects() {
       description:'Developed a responsive real-time chat application using the MERN stack. The application allows users to securely register, log in, and engage in real-time conversations with other users.Built with React.js and styled using Tailwind CSS for a modern and responsive user interface.Backend Developed using Node.js and Express.js for server-side logic',
       link:' https://chatapp-eomm.onrender.com/',
       image:ChatApp
+    },
+    {
+      id:6,
+      title:'Ozhivu (Podcast-only)',
+      description:'Developed a clean and minimal web application that fetches and displays random podcast videos using the YouTube API. The goal of Ozhivu (Malayalam word for “Break” or “Pause”) is to offer users a refreshing break by discovering thought-provoking and entertaining podcast content with a single click',
+      link:' https://ozhivu.vercel.app',
+      image:Ozhivu
     },
   ]
 

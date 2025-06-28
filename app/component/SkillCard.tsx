@@ -16,7 +16,7 @@ function SkillCard() {
        },
     {
         type: 'img',
-        src: 'https://static-00.iconduck.com/assets.00/nextjs-icon-2048x1234-pqycciiu.png',
+        src: 'https://miro.medium.com/v2/resize:fit:720/1*_bJ2z2NRfTncHAv5UjUxwA.jpeg',
         alt: 'Next.js'
     },
     {
@@ -61,7 +61,7 @@ function SkillCard() {
     },
     {
         type: 'img',
-        src: 'https://static-00.iconduck.com/assets.00/swagger-icon-2048x2048-563qbzey.png',
+        src: 'https://s3-us-west-2.amazonaws.com/assertible/integrations/swagger-logo-horizontal.jpeg',
         alt: 'Swagger'
     },
     {
