@@ -62,6 +62,10 @@ export default function RootLayout({
 {
   return (
     <html lang="en" className={`${jerseyFont.variable} bg-[#0C3DFB]`}>
+        <meta
+          name="google-site-verification"
+          content="192scGbrwZ9D_ugyv5VyBEoBSn0U8OkrRXovCDdZ9hU"
+        />
         <ReactLenis root>
       <body
        className="antialiased bg-[#0C3DFB]"
